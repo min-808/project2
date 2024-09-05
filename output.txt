@@ -1,0 +1,179 @@
+Script started on Tue 23 Apr 2024 10:37:01 AM HST
+]0;minjun@uhx02:~/project2[?1034huhx02:/home/m/minjun/project2% ./project
+Welcome to the Banking System!
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+a
+
+Please enter an account number
+100
+
+Next, enter your name
+Min
+
+Finally, enter your address. Type the asterisk character '*' and press enter when done
+Hello Road
+1234
+Honolulu, HI*
+
+Successfully added record
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+a
+
+Please enter an account number
+200
+
+Next, enter your name
+Min2
+
+Finally, enter your address. Type the asterisk character '*' and press enter when done
+Cool Road*
+
+Successfully added record
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+p
+
+Records:
+
+Account Number: 100
+Name: Min
+Address: Hello Road
+1234
+Honolulu, HI
+
+Account Number: 200
+Name: Min2
+Address: Cool Road
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+d
+
+Please enter an account number to delete
+200
+
+Searching for account number 200...
+Found account, deleting...
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+q
+
+Quitting program
+]0;minjun@uhx02:~/project2uhx02:/home/m/minjun/project2% ./project_debug
+**DEBUG**: Calling the no-arguments constructor for llist
+**DEBUG**: Calling the readfile method
+
+---------------------------
+**CURRENTLY IN DEBUG MODE**
+---------------------------
+
+Welcome to the Banking System!
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+a
+
+Please enter an account number
+500
+
+Next, enter your name
+Debug Min
+
+Finally, enter your address. Type the asterisk character '*' and press enter when done
+
+**DEBUG**: Calling the getAddress function with:
+**DEBUG**: toInsert: (nothing in it yet, so garbage data)
+**DEBUG**: length: 45
+
+h Fianl Ro      nal Road 13*   3*
+
+**DEBUG**: Calling the addRecord method with:
+**DEBUG**: accountNum: 500
+**DEBUG**: name: Debug Min
+**DEBUG**: address: Final Road 3
+
+Successfully added record
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+p
+
+**DEBUG**: Calling the overloaded '<<' operator
+
+Records:
+
+Account Number: 100
+Name: Min
+Address: Hello Road
+1234
+Honolulu, HI
+
+Account Number: 500
+Name: Debug Min
+Address: Final Road 3
+
+Please choose an option
+
+add: Add a new record in the database
+printall: Print all the records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+q
+
+Quitting program
+
+**DEBUG**: Calling the llist destructor
+**DEBUG**: Calling the writefile method
+**DEBUG**: Calling the cleanup method
+]0;minjun@uhx02:~/project2uhx02:/home/m/minjun/project2% exit
+exit
+
+Script done on Tue 23 Apr 2024 10:38:05 AM HST
