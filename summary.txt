@@ -1,9 +1,0 @@
-I met all the requirement of the project, and implemented the
-three extra credit points (copy constructor, overloaded assignment
-operator, and overloaded << operator). Additionally, I added debug
-mode to all of the constructors and new methods, and separated
-the debug mode outputs from the normal output. A future enhancement
-could be adding "touch *cpp" to the make files in order to force
-the object files to recompile so that the linkage would work correctly
-for the debug mode flag. Another enhancement could be adding an
-"edit" option to the UI, allowing you to change the name or address.
